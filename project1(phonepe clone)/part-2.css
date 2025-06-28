@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    font-family: PhonePeSans,sans-serif,Helvetica,Arial;
+}
+.container .container-item {
+    flex: auto;
+    margin: 0 8px;
+}
+.Logo {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 59.4px;
+}
+.container .container-item a{
+    color: #000;
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -.21px;
+    line-height: 2.43;
+    text-decoration: none;
+}
+.container .container-item-title {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2.29;
+    margin-bottom: 8px;
+
+}
+.container .container-item ul {
+    list-style: none;
+    margin: 8px 0;
+    padding-left: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.certificate-img a {
+    align-items: flex-end;
+    display: flex;
+}

@@ -1,0 +1,93 @@
+*{
+    font-family:PhonePeSans,sans-serif,Helvetica,Arial;
+}
+#navbar{
+    font-size: 13px;
+    background-color: aliceblue;
+    height: 70px;
+    width: 1500px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin-left: 600px; 
+}
+ul li{
+    margin-left: 60px;
+    
+}
+#nav_link{
+    text-decoration: none;
+    color: rgb(32, 28, 28);
+    padding-top: 25px;
+}
+ul li:hover{
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgb(12, 12, 155);
+}
+.first_container{
+    width: 1500px;
+    height: 720px;
+    background-image: url('phonepe_images/insurancehero.png');
+    box-sizing: border-box;
+}
+.first_container h1,h2{
+    color: rgb(10, 10, 90);
+    text-align: center; 
+    justify-content: center;
+    line-height: 5px;
+    padding-left: 100px;
+}
+.first_container h1{
+    font-size: 5em;
+    padding-top: 530px;
+    
+}
+.first_container h2{
+    font-size: 3em;
+}
+#app_button{
+    width: 230px;
+    height: 60px;
+    background-color: rgb(41, 41, 133);
+    border-radius: 30px;
+    font-size: 1.1em;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+#app_button h4{
+    text-align: center;
+    padding-top: 22px;
+}
+#app_button a{
+    text-decoration: none;
+    color: rgb(236, 241, 244);
+}
+#app_button:hover{
+    background-color: rgb(58, 58, 166);
+    box-shadow:  5px 10px 5px 0px rgb(190, 213, 227);
+}
+.second_container{
+    display: flex;
+    justify-content: center;
+
+}
+.second_container img{
+    width: 650px;
+}
+.second_container h5{
+    color: blue;
+    opacity: 0.8;
+    cursor: pointer;
+    padding-left: 40px;
+}
+.second_container p{
+    padding-top: 170px;
+    padding-left: 40px;
+    width: 650px;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+    line-height: 2em;
+    opacity: 0.8;
+}

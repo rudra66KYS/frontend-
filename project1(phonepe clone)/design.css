@@ -1,0 +1,29 @@
+@import url(./bodydesign.css);
+@import url(./button.css);
+
+body{
+    width: 1400px;
+    background: #fff !important;
+    overflow-x: hidden;
+    -bs-body-font-family: var(--bs-font-sans-serif) !important;
+
+}
+.hero{
+    background-image: url(./hp-banner-new2.png);
+    background-repeat: no-repeat;
+    height: 425px;
+    width: 1520px; 
+    padding-left: 25px ; 
+}
+
+.hero_left{
+    text-align: center;
+    width: 41%;
+    height: 80%;
+    display: flex;
+    justify-content:center;
+    text-align: left;
+    margin-left: 100px ;
+    padding-bottom: 20px;
+    
+}

@@ -1,0 +1,35 @@
+.btn-container{
+    position: relative;
+    right: 70px;
+    width: -moz-fit-content;
+    width: fit-content;
+ }
+
+a.btn-container{
+    color: inherit;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+
+a{
+    background-color: transparent;
+}
+
+.btn-design{
+    background-color: transparent;
+    border: 2px solid #4cdeff;
+    color: #fff;
+    font-size: 1.125rem;
+    height: 37px;
+    letter-spacing: -.27px;
+    line-height: 33px;
+    text-align: center;
+    width: 137px;
+    border-radius : 33px;
+    min-width: max-content;
+    padding: 0 16px;
+    cursor: pointer;
+    display: block;
+}

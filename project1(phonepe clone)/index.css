@@ -1,0 +1,135 @@
+
+@import url(./index2.css);
+@import url(./ph.css);
+@import url(./p.css);
+@import url(./index3.css);
+@import url(./part-2.css);
+@import url(./use.css);
+@import url(./use2.css);
+@import url(./design.css);
+
+*{
+    font-family:PhonePeSans,sans-serif,Helvetica,Arial;
+}
+.container{
+    margin-top: 110px;
+    margin-left: 110px;
+    height:300px;
+    width: 1200px;
+    display: flex;
+    position: relative;
+    left:33px;
+    padding-bottom: 50px;
+}
+#link1,#link2{
+    width: 45%;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    border: 1px solid gray;
+}
+#link1{
+    margin-left: 55px;
+    background-image: url('phonepe_images/left_shield.png');
+    background-repeat: no-repeat;
+    background-position: 240px;
+    background-size: 300px;
+}
+#link2{
+    margin-left: 30px;
+    background-image: url(phonepe_images/right_box.jpg);
+    background-repeat: no-repeat;
+    background-position: 240px;
+    background-size: 300px;
+}
+h2,p{
+    padding-left: 30px;
+}
+h2{
+    padding-top: 30px;
+    font-size: 2em;
+    color: rgb(4, 4, 101);
+}
+p{
+    color: black;
+    font-size: 1em;
+    line-height: 2em;
+}
+#link1:hover{
+    box-shadow: 0px 10px 20px 0px rgb(119, 107, 107);
+    border: none;
+}
+#link2:hover{
+    box-shadow: 0px 10px 20px 0px rgb(119, 107, 107);
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+#arrow{
+    font-size: 2.4em;
+    color: rgb(48, 48, 182);
+    padding-left: 40px;
+}
+#head_navbar ul li:hover{
+    cursor: pointer;
+    color: blue !important;
+}
+
+
+/* styling for partner.css */
+
+
+#partner_bg{
+    background: linear-gradient(#ddd8fa,#fff);
+    width: 1535px;
+}
+#main h1{
+    color: rgb(44, 44, 102);
+    font-size: 2.6em;
+    text-align: center;
+    padding-left: 150px;
+    line-height: 1.5em;
+}
+.famous_button{
+    width: 250px;
+    height: 60px;
+    background-color: #07c3de;
+    border-radius: 50px;
+    margin-left: 650px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: width 0.2s ease-in;
+}
+.famous_button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    padding-left: 40px;
+}
+.partner_arrow{
+    font-size: 2em;
+}
+.famous_button:hover{
+    background-color: #0fdfff;
+    box-shadow: 5px 3px 10px 0px rgb(121, 116, 116);
+    width: 255px;  
+}
+#logo_images{
+    margin-left: 200px;
+    margin-top: 50px;
+    animation: 0.9s ease 0.2s 1 myslide;
+}
+#logo_images img{
+    width: 1200px;
+}
+
+@keyframes myslide {
+    from{margin-left: -1300px}
+    to{margin-left: 200px}
+}
+
+
+
+

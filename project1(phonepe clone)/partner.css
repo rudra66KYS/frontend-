@@ -1,0 +1,54 @@
+*{
+    font-family:PhonePeSans,sans-serif,Helvetica,Arial;
+    width: 1200px;
+    margin: 0px;
+    margin-right: 0px;
+}
+#partner_bg{
+    background: linear-gradient(#ddd8fa,#fff);
+    width: 1535px;
+}
+#main h1{
+    color: rgb(44, 44, 102);
+    font-size: 2.6em;
+    text-align: center;
+    padding-left: 150px;
+    line-height: 1.5em;
+}
+.famous_button{
+    width: 250px;
+    height: 60px;
+    background-color: #07c3de;
+    border-radius: 50px;
+    margin-left: 650px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: width 0.2s ease-in;
+}
+.famous_button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    padding-left: 40px;
+}
+.partner_arrow{
+    font-size: 2em;
+}
+.famous_button:hover{
+    background-color: #0fdfff;
+    box-shadow: 5px 3px 10px 0px rgb(121, 116, 116);
+    width: 255px;  
+}
+#logo_images{
+    margin-left: 200px;
+    margin-top: 50px;
+    animation: 0.9s ease 0s 1 myslide;
+}
+
+@keyframes myslide {
+    from{margin-left: -1300px}
+    to{margin-left: 200px}
+}
+
+
+

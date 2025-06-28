@@ -1,0 +1,76 @@
+
+.part4 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+body .appBuilder-carousel {
+    margin-top: 0px;
+  }
+  body .appBuilder-carousel .carousel .carousel-indicators {
+    width: 60%;
+  }
+  body .appBuilder-carousel .carousel .carousel-indicators li {
+    border: none;
+    background-color: #6739B7;
+    height: 4px;
+    margin-right: 4px;
+    width: 12px;
+    justify-content: center;
+  }
+  body .appBuilder-carousel .carousel .carousel-indicators li.active {
+    background-color: #838786;
+  }
+  
+.carousel-inner{
+    display: flex;
+    padding-left: 10px;
+    position: relative;
+}
+.img-responsive1,.img-responsive2,.img-responsive3{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+}
+.img-responsive1:hover,.img-responsive2:hover,.img-responsive3:hover{
+    width: 370px;
+    height: 430px;
+    opacity: 1;
+    z-index: 99;
+    box-shadow: 10px 10px 10px 3px black;
+    border-radius: 50px;
+}
+.img-responsive1{
+  left: 30px;
+  z-index: 1;
+}
+.img-responsive2{
+  left: 350px;
+  z-index: 3;
+}
+.img-responsive3{
+  left: 650px;
+  z-index: 1;
+}
+.container1{
+  padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

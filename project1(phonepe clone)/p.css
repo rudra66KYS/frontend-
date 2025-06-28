@@ -1,0 +1,67 @@
+*{
+    font-family:PhonePeSans,sans-serif,Helvetica,Arial;
+}
+.wholecard {
+    text-align: center;
+    
+}
+
+.button {
+    background-color: white;
+    text-align: center;
+    color: #a64dff;
+    border-radius: 30px;
+    height: 50px;
+    width: 250px;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 1.1em;
+    color: #595959;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.paragraph-2 {
+    text-align: center;
+    color: #df80ff;
+}
+
+#purple_container{
+    background-color: #967edd;
+    display: flex;
+    width: 1300px;
+    height: 280px;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+
+.secure_left img{
+    width: 200px;
+    height: 200px;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.secure_right{
+    padding-left: 130px;
+}
+
+.heading_1 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 900;
+    opacity: 0.9;
+}
+
+.paragraph_3 {
+    color: #fff;
+    font-size: 1.3em;
+    opacity: 0.9;
+}
+.button:hover{
+    cursor: pointer;
+}
+

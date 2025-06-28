@@ -1,0 +1,39 @@
+*{
+    font-family: PhonePeSans,sans-serif,Helvetica,Arial;
+    width: 1200px;
+}
+.invest_container h1{
+    color: #361968;
+    font-size: 2.8em;
+    line-height: 60px;
+}
+.invest_container p{
+    font-size: 1.2em;
+    opacity: 0.9;
+    line-height: 40px;
+}
+#invest_button{
+    width: 220px;
+    height: 50px;
+    background-color: #4a1784;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 50px;
+}
+.invest_container{
+    margin-left: 10vw;
+    display: flex;
+}
+.right_invest{
+    position: relative;
+    right: 1500px;
+}
+.right_invest img{
+    width: 1800px;
+    height: 500px;
+}
+

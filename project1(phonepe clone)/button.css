@@ -1,0 +1,13 @@
+.knowbutton {
+    align-items: center;
+    background-color: #6739b7;
+    border-radius: 33px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px 40px;
+    text-decoration: none;
+    width: 42%;
+  }
+
+
